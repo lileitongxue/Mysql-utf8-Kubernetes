@@ -1,5 +1,5 @@
-# Mysql-utf8-Kubernetes
-===================
+Mysql-utf8-Kubernetes 
+=====================
 1.创建cm文件<br>
 oc create configmap config --from-file=key=mysqld.cnf <br>
 2.根据openshift编排文件创建dc <br>
